@@ -1,0 +1,47 @@
+<!Doctype Html>
+ <html>
+  <head>
+   <title>canvas绘制折线图</title>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+   <script type="text/javascript" src="LineChart.js"></script>
+   <style>
+    body{background-color:#FFF;}
+    canvas{background-color:white;margin:10px 30px 30px 30px;}
+   </style>
+ </head>
+ <body>
+  <canvas id="canvas"> </canvas>
+<script>
+window.onload = function(){
+  var yTd = 50;
+  multiData = [{x:"2016/6/25",y1:"672",y2:"880"},
+               {x:"2016/6/26",y1:"704",y2:"924"},
+               {x:"2016/6/27",y1:"534",y2:"761"},
+               {x:"2016/6/28",y1:"667",y2:"892"},
+               {x:"2016/6/29",y1:"609",y2:"858"},
+               {x:"2016/6/30",y1:"720",y2:"980"},
+               {x:"2016/7/1",y1:"711",y2:"996"},
+               {x:"2016/7/2",y1:"655",y2:"840"},]
+
+  var yTd2_1 = 20;
+  var yTd2_2 = 5;
+  multiData2 = [{x:"2016/6/25",y1:"234",y2:"59"},
+                {x:"2016/6/26",y1:"312",y2:"67"},
+                {x:"2016/6/27",y1:"278",y2:"72"},
+                {x:"2016/6/28",y1:"280",y2:"70"},
+                {x:"2016/6/29",y1:"255",y2:"68"},
+                {x:"2016/6/30",y1:"269",y2:"63"},
+                {x:"2016/7/1",y1:"300",y2:"66"},
+                {x:"2016/7/2",y1:"248",y2:"60"},]
+
+  LineChart.init({
+    canvasId: 'canvas',
+    nodeList: multiData2,
+    yGradient1: 20,
+    yGradient2: 5,
+    unitLengthX: 80
+  })
+}
+</script>
+</body>
+</html>
