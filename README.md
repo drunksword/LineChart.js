@@ -2,7 +2,7 @@
 使用html5的canvas api绘制折线图显示数据走势，支持在同一坐标系内绘制两条折线
 
 #效果示例
-![image](https://github.com/soggotheslitherer/LineChart.js/raw/master/imgs/eg1.PNG)
+![image](https://github.com/soggotheslitherer/LineChart.js/blob/master/imgs/eg1.PNG)
 ![image](https://github.com/soggotheslitherer/LineChart.js/raw/master/imgs/eg2.PNG)
 
 #使用方法
@@ -38,4 +38,4 @@ canvasH:400,//canvas高度
 ###index.html中已经给出了样例数据，可以直接运行
 
 #总结
-使用原生js实现了折线图的基本功能，代码简单易懂。但是实现功能非常有限，使用时可能要自己修改和扩展，比如需要在一个坐标系中画3条以上折线，或者只画一条折线等等。作为自己练手的代码，如果能帮打你，我将非常开心^_^
+   使用原生js实现了折线图的基本功能，代码简单易懂。但是实现功能非常有限，使用时可能要自己修改和扩展，比如需要在一个坐标系中画3条以上折线，或者只画一条折线等等。作为自己练手的代码，如果能对你有任何帮助，give me a star^_^
